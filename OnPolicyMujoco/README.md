@@ -45,7 +45,7 @@ bash run_vaac.sh
 ```
 python parser.py
 ```
-To visualize the performance, after aggregating the results from multiple runs, use "RewardPerformance.ipynb" jupyter-notebook to plot the learning curves.
+To visualize the performance, after aggregating the results from multiple runs, use **RewardPerformance.ipynb** jupyter-notebook to plot the learning curves.
   
   
 ## For analysis of mean-variance performance  
