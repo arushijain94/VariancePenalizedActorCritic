@@ -6,13 +6,13 @@ import numpy as np
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--dir", default='../VPACResults/PPOResults', type=str, help='Directory name')
+parser.add_argument("--save_dir", default='../VPACResults/Performance', type=str, help='Save directory name')
 parser.add_argument("--maxiter", default=5000, type=int, help='Max iterations to process')
-
-save_dir = "../VPACResults/Performance"
-os.makedirs(save_dir, exist_ok=True)
 
 args = parser.parse_args()
 print('Directory being parsed:', args.dir)
+save_dir = args.save_dir
+os.makedirs(save_dir, exist_ok=True)
 
 experiments = os.listdir(args.dir)
 for exp in experiments:
