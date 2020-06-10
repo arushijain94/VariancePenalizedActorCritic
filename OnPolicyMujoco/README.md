@@ -41,7 +41,7 @@ bash run_vaac.sh
  * PPO results :  Set dir="BaselineResults/PPOResults", save_dir="PPOBaseline/Performance"
  
  PPO results are stored in BaselineResults with $\psi=0$. On the other hand, VAAC baseline results are stored in
-  "BaselineResults" with $\psi!=0$. Now run the below command:
+  "BaselineResults" with $\psi!=0$. The below python file will aggregate the return from 20 random seeds in one .npy file. Now run the below command:
 ```
 python parser.py
 ```
@@ -67,6 +67,7 @@ Followed by the above command, run the below file to aggregate the results and g
 ```
 python aggregate_return_dist.py
 ```
-Change main_dir = "BaselineResults" for creating pickle of return distribution for baselines - PPO and VAAC.
+Change main_dir = "BaselineResults" for creating pickle of return distribution for baselines - PPO and VAAC. We used the
+ above pickle file to generate the box plots for the variance distribution across the multiple runs.
 
 
