@@ -4,6 +4,7 @@ Here we run VPAC algorithm and baselines VAAC, VAAC_TD and vanilla AC. We use th
 * OnPolicyTabular: Tabular four-rooms experiments for on-policy VPAC
 * OffPolicyTabular: Tabular puddle-world experiments for off-policy VPAC
 * OffPolicyContinuous: Continuous state puddle-world experiments for off-policy VPAC
+* OnPolicyMujoco: Check this folder to see the code and readme file for running Mujoco experiments for on-policy VPAC.
 
 ## Prerequisites
 Things required for four-rooms and puddle-world experiments.
