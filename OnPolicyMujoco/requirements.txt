@@ -20,7 +20,7 @@ importlib-metadata==1.6.0
 Markdown==3.2.2
 monotonic==1.5
 mujoco-py==2.0.2.9
-numpy==1.18.1
+numpy==1.22.0
 oauthlib==3.1.0
 opencv==1.0.1
 Pillow==7.0.0
